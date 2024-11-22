@@ -117,7 +117,7 @@ const weaponsArray = [
 
 function selectRandom(array) {
     let arrLen = array.length;
-    let numToPick = Math.floor((Math.random()* (arrLen -1)));
+    let numToPick = Math.floor((Math.random()* (arrLen)));
     return array[numToPick];
 }
 //console.log(selectRandom(suspectsArray));
